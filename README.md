@@ -7,22 +7,22 @@ Each gift costs certain points for purchase. Customer can choose to buy them if 
 
 The project deals with a simple database that can handle basic operations that are required in a pharmaceutical company. It involves report viewing, placing of orders, and dealing with purchases of gifts. Basic transactions have been set up for the same :
 
-<u>Pharmacy Report:</u>
+-Pharmacy Report:
 It displays sales report of each branch,total transactions happened.Gives the purchase history of each branch.Displays medicines below threshold in each branch, and prints employee details of employees working in each branch.
 
-<u>Branch Report:</u>
+-Branch Report:
 It displays same contents as of pharmacy report but for a given branch id.
 There are 4 branches in total.
 
-<u>Customer details:</u>
+-Customer details:
 Personal details of that customer,history of his/her medicines they bought and displays gift purchases and points if he is a member. 
 
-<u>Placing an Order:</u>
+-Placing an Order:
 Asks if you are an existing customer if yes,you can continue with your cid(customer ID) or else you can create one.
 Transaction starts now:
 Enter branch id and customer id and give the name of the medicine and it gives a list of all medicines available with the quantity present in that particular branch.Select the medicine and mention the quantity.The bill is calculated.
 
-<u>Availing gifts:</u>
+-Availing gifts:
 You being a customer if you are a member, then each time you make a transaction points would be added to your customer id which you can redeem and get gifts like Thermometer,Weighing machine.
 
 Implementation of the above functionalities have been done in python by importing **psycopg**.
